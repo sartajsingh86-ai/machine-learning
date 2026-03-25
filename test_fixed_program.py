@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import load_iris
 from fixed_program import preprocess, train_model
-# this is test file
+# this is test 
 class TestFixedProgram(unittest.TestCase):
 
     def test_load_data_shape(self):
