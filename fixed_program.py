@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.datasets import load_iris
-
+# test
 def load_data():
     data = load_iris(as_frame=True)
     df = data.frame
